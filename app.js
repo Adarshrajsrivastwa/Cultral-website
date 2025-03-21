@@ -33,7 +33,7 @@ const isLoggedIn = (req, res, next) => {
 dotenv.config();
 connectdb();
 
-PORT=3000;
+PORT= 3000;
 
 
 let app = express();
